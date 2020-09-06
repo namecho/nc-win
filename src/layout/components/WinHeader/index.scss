@@ -1,0 +1,25 @@
+.win-header {
+  -webkit-app-region: drag;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .win-tools {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    li {
+      -webkit-app-region: no-drag;
+      cursor: pointer;
+      padding: 0 20px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background: #5c5c67;
+      }
+    }
+  }
+}

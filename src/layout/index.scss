@@ -1,0 +1,19 @@
+.layout {
+  height: 100%;
+  .header {
+    height: 36px;
+    background-color: #343442;
+  }
+  .main {
+    height: calc(100% - 36px);
+    display: flex;
+    .sidebar {
+      height: 100%;
+      flex: 0 180px;
+      background: #42424e;
+    }
+    .content {
+      flex: auto;
+    }
+  }
+}
